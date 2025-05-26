@@ -4,7 +4,7 @@
   transform: rotate(90deg);
 }
 .dash {
-  background: var(--accent);
+  background: var(--neutral);
   height: 40px;
   width: 2px;
   cursor: pointer;

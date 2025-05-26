@@ -4,7 +4,7 @@
   text-align: center;
 }
 .hero-text {
-  font-size: calc(10vw + 1rem);
+  font-size: calc(8vw + 1rem);
   text-transform: uppercase;
   color: var(--neutral);
   text-align: center;
@@ -12,10 +12,10 @@
   font-weight: 900;
 }
 .span-text {
-  color: var(--secondary-accent);
+  color: var(--neutral);
 }
 .span-text-frontend,
 .span-text-backend,
 .span-text-developer {
-  color: var(--accent);
+  color: var(--neutral);
 }
