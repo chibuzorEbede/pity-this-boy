@@ -14,3 +14,8 @@
 .span-text {
   color: var(--secondary-accent);
 }
+.span-text-frontend,
+.span-text-backend,
+.span-text-developer {
+  color: var(--accent);
+}

@@ -4,7 +4,7 @@
   gap: 5px;
 }
 .dash {
-  background: var(--neutral);
+  background: var(--accent);
 }
 .zero {
   width: 7px;
