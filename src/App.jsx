@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Container from "./components/container/Container";
 import ThreeDModel from "./components/model/ThreeDModel";
+import AnimationTest from "./components/AnimationTest";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         {/* <ThreeDModel /> */}
       </Container>
+      {/* <AnimationTest /> */}
     </>
   );
 }
