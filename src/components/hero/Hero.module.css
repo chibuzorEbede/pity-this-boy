@@ -1,21 +1,15 @@
 .container {
-  padding: 6rem 0;
-  padding-bottom: 0;
-  text-align: center;
+  padding: 0;
+  margin: auto 0.5rem;
 }
-.hero-text {
-  font-size: calc(8vw + 1rem);
+.title {
+  display: grid;
+}
+.text {
+  font-style: normal;
+  color: var(--elements-text);
   text-transform: uppercase;
-  color: var(--neutral);
-  text-align: center;
-  display: inline;
+  font-size: calc(12vw + 1rem);
   font-weight: 900;
-}
-.span-text {
-  color: var(--secondary-accent);
-}
-.span-text-frontend,
-.span-text-backend,
-.span-text-developer {
-  color: var(--neutral);
+  line-height: calc(9vw + 1rem);
 }

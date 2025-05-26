@@ -1,6 +1,8 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
+import styles from "./Model.module.css";
+import cx from "classnames";
 
 function Model({ url }) {
   const { scene } = useGLTF(url);
@@ -9,7 +11,7 @@ function Model({ url }) {
 
 const ThreeDModel = () => {
   return (
-    <div style={{ height: "50vh" }}>
+    <div className={cx(styles["canvas-container"])}>
       <Canvas>
         <ambientLight intensity={3} />
         <Model url="gray_matter_os.glb" />

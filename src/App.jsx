@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Container>
         <Hero />
+        {/* <ThreeDModel /> */}
       </Container>
-      <ThreeDModel />
     </>
   );
 }

@@ -1,11 +1,11 @@
 .menu-container {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   transform: rotate(90deg);
 }
 .dash {
-  background: var(--neutral);
+  background: var(--elements-text);
   height: 40px;
-  width: 2px;
+  width: 4px;
   cursor: pointer;
 }
