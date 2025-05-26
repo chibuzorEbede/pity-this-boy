@@ -1,0 +1,22 @@
+.logo-container {
+  display: flex;
+  /* width: 50px; */
+  gap: 5px;
+}
+.dash {
+  background: var(--neutral);
+}
+.zero {
+  width: 7px;
+  height: 15px;
+  align-self: flex-end;
+}
+.one {
+  width: 7px;
+  height: 40px;
+}
+.two {
+  width: 7px;
+  height: 25px;
+  align-self: flex-end;
+}
