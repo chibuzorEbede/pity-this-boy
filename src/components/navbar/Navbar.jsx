@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../logo/logo";
+import Logo from "../logo/Logo";
 import MenuButton from "../menu/MenuButton";
 import styles from "./Navbar.module.css";
 import cx from "classnames";
