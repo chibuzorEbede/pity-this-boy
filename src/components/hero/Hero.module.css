@@ -12,7 +12,7 @@
   font-weight: 900;
 }
 .span-text {
-  color: var(--neutral);
+  color: var(--secondary-accent);
 }
 .span-text-frontend,
 .span-text-backend,
