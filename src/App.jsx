@@ -1,5 +1,5 @@
 import "./App.css";
-import Logo from "./components/logo/logo";
+import Logo from "./components/logo/Logo";
 import MenuButton from "./components/menu/MenuButton";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
