@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Container>
         <Hero />
-        {/* <ThreeDModel /> */}
+        <ThreeDModel />
       </Container>
       {/* <AnimationTest /> */}
     </>

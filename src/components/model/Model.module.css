@@ -1,4 +1,7 @@
 .canvas-container {
   position: absolute;
-  top: 40%;
+  max-width: 90%;
+  height: auto;
+  top: 60%;
+  z-index: 20;
 }
