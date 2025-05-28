@@ -51,7 +51,7 @@ const ModelViewer = () => {
             decay={0}
             intensity={Math.PI}
           />
-          <SpinningModel modelPath="moon.glb" />
+          <SpinningModel modelPath="water_god.glb" />
           <OrbitControls
             minDistance={4}
             maxDistance={2}
