@@ -35,7 +35,7 @@ const ModelViewer = () => {
     >
       <Canvas
         style={{ height: "30vh" }}
-        camera={{ position: [2.2, 2.2, 2.2], fov: 78 }}
+        camera={{ position: [2.2, 2.2, 2.2], fov: 70 }}
       >
         <Suspense fallback={null}>
           <ambientLight intensity={Math.PI / 2} />
@@ -56,6 +56,7 @@ const ModelViewer = () => {
             minDistance={4}
             maxDistance={2}
             initialPosition={[0, 0, 2]}
+            enableRotate={false}
           />
         </Suspense>
       </Canvas>
