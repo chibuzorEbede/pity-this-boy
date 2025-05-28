@@ -17,7 +17,12 @@ const Hero = () => {
         <motion.em
           initial={{ translateX: "-500px" }}
           animate={{ translateX: 0 }}
-          transition={{ delay: 0.97, ease: "easeIn", type: "spring" }}
+          transition={{
+            delay: 1,
+            ease: "easeIn",
+            type: "spring",
+            damping: "10",
+          }}
           className={cx(styles.text)}
         >
           fullstack
@@ -25,7 +30,12 @@ const Hero = () => {
         <motion.em
           initial={{ translateX: "1000px" }}
           animate={{ translateX: 0 }}
-          transition={{ delay: 0.97, ease: "easeIn", type: "spring" }}
+          transition={{
+            delay: 1,
+            ease: "easeIn",
+            type: "spring",
+            damping: "10",
+          }}
           className={cx(styles.text)}
         >
           software

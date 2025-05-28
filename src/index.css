@@ -6,6 +6,12 @@
   --logo-text: #232323;
   --heading-text: #7b7b7b;
   --primary-text: #797979;
+  --button--text: #ebebeb;
+  --button-background: #7b7b7b;
+  --accent: #dab554;
+  --neutral: #a0a8a9;
+
+  /* typography */
   --text-sm: clamp(0.8rem, 2vw, 1rem);
   --text-md: clamp(1rem, 3vw, 1.5rem);
   --text-lg: clamp(1.5rem, 4vw, 2.5rem);

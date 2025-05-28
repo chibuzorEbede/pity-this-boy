@@ -1,6 +1,5 @@
 .canvas-container {
   position: absolute;
-  height: auto;
-  top: 60%;
+  top: 40vh;
   z-index: 20;
 }

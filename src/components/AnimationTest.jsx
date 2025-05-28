@@ -10,6 +10,7 @@ const AnimationTest = () => {
         placeContent: "center",
         height: "20vh",
         gap: "0.8rem",
+        marginTop: "20px",
       }}
     >
       <button onClick={() => setIsVisible(!isVisible)}>show/hide</button>

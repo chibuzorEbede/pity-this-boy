@@ -1,0 +1,8 @@
+.primary-button {
+  background: var(--button-background);
+  color: var(--button-text);
+}
+.secondary-button {
+  background: var(--accent);
+  color: var(--button-text);
+}

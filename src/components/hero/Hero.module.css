@@ -1,15 +1,15 @@
 .container {
   padding: 0;
-  margin: auto 0.5rem;
 }
 .title {
   display: grid;
+  margin-top: -100px;
 }
 .text {
   font-style: normal;
   color: var(--elements-text);
   text-transform: uppercase;
   font-size: calc(12vw + 1rem);
-  font-weight: 900;
+  font-weight: 800;
   line-height: calc(9vw + 1rem);
 }

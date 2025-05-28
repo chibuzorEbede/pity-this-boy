@@ -4,8 +4,10 @@ import MenuButton from "./components/menu/MenuButton";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Container from "./components/container/Container";
-import ThreeDModel from "./components/model/ThreeDModel";
+import ModelViewer from "./components/model/ModelViewer";
 import AnimationTest from "./components/AnimationTest";
+import Intro from "./components/sections/intro/Intro";
+import Wrapper from "./components/container/Wrapper";
 
 function App() {
   return (
@@ -13,8 +15,11 @@ function App() {
       <Navbar />
       <Container>
         <Hero />
-        <ThreeDModel />
+        <ModelViewer />
       </Container>
+      {/* <Wrapper>
+        <Intro />
+      </Wrapper> */}
       {/* <AnimationTest /> */}
     </>
   );

@@ -2,10 +2,10 @@
   display: flex;
   gap: 8px;
   transform: rotate(90deg);
+  cursor: pointer;
 }
 .dash {
   background: var(--elements-text);
   height: 40px;
   width: 4px;
-  cursor: pointer;
 }

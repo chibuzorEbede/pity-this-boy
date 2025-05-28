@@ -6,7 +6,7 @@ import cx from "classnames";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className={cx(styles["header-container"])}>
       <nav className={cx(styles.navbar)}>
         <Logo />
         <MenuButton />
