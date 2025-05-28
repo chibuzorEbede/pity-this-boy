@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../button/button";
+import Button from "../../button/Button";
 
 function Intro() {
   return (
@@ -12,8 +12,8 @@ function Intro() {
         user-friendly websites, and engaging animations.
       </p>
       <p>
-        Let’s connect! We&apos;ll go over your needs together-coffee&apos;s on
-        me.
+        Let&apos;s connect! We&apos;ll go over your needs together-coffee&apos;s
+        on me.
       </p>
       <div>
         <Button type="primary" text="services" />
